@@ -1,8 +1,12 @@
+//This file app.js is resopnsible for displaying all the screen files onto the screen
 import React from "react";
+//Importing react elements into the functional component header file 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Footer from "./components/Footer";
+//importing the footer component onto the screen files
 import Header from "./components/Header";
+//importing the header component onto the screen files
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
@@ -24,6 +28,7 @@ const App = () => {
   return (
     <Router>
       <Header />
+      {/* The header is placed outside the main tag as it should br present on all screens  */}
       <main className="py-3">
         <Container>
           <Route path="/order/:id" component={OrderScreen} />
@@ -60,6 +65,7 @@ const App = () => {
         </Container>
       </main>
       <Footer />
+      {/* //Same as the header , the footer is placed outside the main tag at the bottom so that it is placed at the bottom of all the pages  */}
     </Router>
   );
 };
