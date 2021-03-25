@@ -1,4 +1,3 @@
-//this file is responsible for handling all action going thought the cart screen 
 import axios from "axios";
 import {
   CART_ADD_ITEM,
@@ -7,7 +6,7 @@ import {
   CART_SAVE_PAYMENT_METHOD,
 } from "../constants/cartConstants";
 
-//using 
+
 export const addtoCart = (id, qty) => async (dispatch, getState) => {
   const { data } = await axios.get(`/api/products/${id}`);
 

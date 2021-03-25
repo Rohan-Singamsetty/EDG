@@ -3,7 +3,7 @@
 import React from "react";
 //Importing react elements into the functional component header file
 import { Nav } from "react-bootstrap";
-//react bootstarap is a UI library  , Nav is the top component
+//react bootstarap is a UI library, Nav is the top component
 import { LinkContainer } from "react-router-bootstrap";
 //you can wrap react bootstrap elements in a <LinkContainer> to make it behave like a React Router
 

@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    //changed the div to footer
+    //changed the div to footer to put all the elements inside 
     <footer>
       <Container>
         <Row>

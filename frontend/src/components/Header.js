@@ -26,7 +26,7 @@ const Header = () => {
   const logoutHandler = () => {
     dispatch(logout());
   };
-  //when a user logs in , their navbar would be different, when they click the logout icon , it promts the logout handler and lets them logout
+  //when a user logs in, their navbar would be different, when they click the logout icon , it promts the logout handler and lets them logout
 
   return (
     //changed the div to header

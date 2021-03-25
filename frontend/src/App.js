@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 import Footer from "./components/Footer";
 //importing the footer component onto the screen files
 import Header from "./components/Header";
-//importing the header component onto the screen files
+//importing the header component into all the screen files
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
