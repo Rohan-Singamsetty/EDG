@@ -65,7 +65,7 @@ const Header = () => {
               {userInfo ? (
                 <NavDropdown title={userInfo.name} id="username">
                   <LinkContainer to="/profile">
-                    {/* The profile section here contains the users order history and a section where the user can change thief password */}
+                    {/* The profile section here contains the users order history and a section where the user can change thier password */}
                     <NavDropdown.Item>Profile</NavDropdown.Item>
                   </LinkContainer>
                   <NavDropdown.Item onClick={logoutHandler}>

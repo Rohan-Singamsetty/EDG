@@ -1,56 +1,77 @@
 main {
+  /* Set the main height of the screen  */
   min-height: 80vh;
 }
 
 h3 {
+  /* The h3 should be st to default */
   padding: 1rem 0;
 }
 
 h1 {
+  /* The font size should be set to 1.8 rem default */
   font-size: 1.8rem;
+  /* Th padding should be set to 1 rem */
   padding: 1rem 0;
 }
 
 h2 {
+  /* The h2 should be set to 1.4 rem font size */
   font-size: 1.4rem;
+  /* The padding should be set to 0.5 rem */
   padding: 0.5rem 0;
 }
 
 .rating span {
+  /* Margin of the rating component should be set to 0.1 rem */
   margin: 0.1rem;
 }
 
-/* carousel */
+/* the carosuel shuold be set here */
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
+  /* The caousel next , previous and active items should br set to flex */
   display: flex;
 }
 .carousel-caption {
+  /* The carousel caption should be set to absolute and tiop should be set 0 */
   position: absolute;
   top: 0;
 }
 
 .carousel-caption h3 {
+  /* The h3 of the carousel should be set to the white color */
   color: #fff;
 }
 .carousel {
+  /* The carosuels context should be set to be centre */
   text-align: center;
 }
 
 .carousel img {
+  /* The carousel height should be set to 300 pixels */
   height: 300px;
+  /* The carousel padding should be set to 30 pixels */
   padding: 30px;
+  /* The carousl margin should be set to 40 pixels */
   margin: 40px;
+  /* The carousel height should be set to 300 pixels */
   border-radius: 50%;
+  /* The carousel border radius should be set to 50 percentage */
   margin-left: auto;
+  /* The carousel margin left should be set to auto */
   margin-right: auto;
+  /* The carousel margin right should be set to auto */
 }
 .carousel a {
+  /* The carosuel  margin should be set to 0*/
   margin: 0 auto;
 }
 @media (max-width: 900px) {
+  /* When the maximun width of the screen is below 900 pixels */
   .carousel-caption h3 {
+    /* Set the carousel caption to be 2vw */
     font-size: 2vw;
   }
 }

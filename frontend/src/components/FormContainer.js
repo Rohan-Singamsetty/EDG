@@ -1,6 +1,6 @@
 //This component is the form fields container , so the box around the form fields is primarily the form container
 import React from "react";
-//Importing react elements into the functional component header file
+//Importing react elements into the functional component 
 import { Container, Row, Col } from "react-bootstrap";
 //react bootstarap is the UI library, Containers provide a mean to center and horizontally pad the contents in side of it, rows and columns are here to layout and align the content
 

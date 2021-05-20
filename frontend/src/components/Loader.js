@@ -1,6 +1,6 @@
 //The loader component is a spinner animation when in certain situations the data doesnt load the spinner wil appear , for example when the products dont come from the database by any technical reason the loader will appear 
 import React from "react";
-//Importing react elements into the functional component header file
+//Importing react elements into the functional component 
 import { Spinner } from "react-bootstrap";
 //The Spinner is the loader animation picture which is brought from the bootstrap UI 
 

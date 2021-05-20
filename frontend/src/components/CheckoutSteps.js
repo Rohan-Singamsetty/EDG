@@ -1,7 +1,7 @@
 //The Checkoutdteps file is responsible for diplaying the checkout process to the users when they buy any products and checkout, the component is basically divided into 4 steps which are to step1->Sign In , step2->Shipping Adress, step3->payment which is an option with either paypal, stripe or debit or credit card and the last step4->placing the  order
 //Using the rafce snippet -> REACT ARROW FUNCTION COMPONENT
 import React from "react";
-//Importing react elements into the functional component header file
+//Importing react elements into the functional component 
 import { Nav } from "react-bootstrap";
 //react bootstarap is a UI library, Nav is the top component
 import { LinkContainer } from "react-router-bootstrap";
